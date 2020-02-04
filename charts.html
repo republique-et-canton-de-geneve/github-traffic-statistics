@@ -1,128 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta http-equiv="Access-Control-Allow-Origin" content="*">
-    <meta charset="UTF-8">
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="data/chvote-1.0.js"></script>
-    <style>
-      body { font-family: Arial; }
-      .line {
-        fill: none;
-        stroke: green;
-        stroke-width: 5px;
-      }
-    </style>  </head>
+    <meta charset='UTF-8'>
+    <script src='https://d3js.org/d3.v5.min.js'></script>
+    <script src='data/chvote-1.0.js'></script>
+    <link rel="stylesheet" type='text/css' href='charts.css'>
+  </head>
 
   <body>
-    <div class="myClass">
+    <div class='myClass'>
       Hello World!
     </div>
-    <ul id = "list">
+    <ul id = 'list'>
         <li></li>
         <li></li>
     </ul>
     <h3>Simple transitions</h3>
 
-    <script language="JavaScript">
-      d3.select(".myClass")
-          .append("span")
-          .text("from D3.js")
-          .attr("style", "color:red");
-      d3.select("#list")
-          .selectAll("li")
-          .data([10, 20, 30, 25, 15])
-          .text(function(d) { return "This is pre-existing element and the value is " + d; })
-          .enter()
-          .append("li")
-          .text(function(d) { return "This is dynamically created element and the value is " + d; });
-      d3.select("body")
-          // make the background-color lightblue.transition()
-          .style("background-color", "lightblue")
-          // make the background-color gray
-          .style("background-color", "gray");
-      d3.select("h3")
-          .transition()
-          .style("color", "green")
-          .duration("2000")
-          .transition()
-          .style("color", "blue")
-          .duration("2000");
-
-      // set the dimensions and margins of the graph
-      const margin = {
-          top: 20,
-          right: 20,
-          bottom: 30,
-          left: 50};
-      const width = 960 - margin.left - margin.right;
-      const height = 500 - margin.top - margin.bottom;
-
-      // get the data
-      const data = chvoteData;
-
-      // set the ranges (scales)
-//      const x = d3.scaleTime().range([0, width]);
-      const firstDate = data[0][1];                                                       // e.g., '05 2019' (5 = May)
-      const lastDate = data[data.length - 1][1];   // e.g., '05 2019'
-      console.log('firstDate ', firstDate.substring(3, 7), firstDate.substring(0, 2) );
-      console.log('lastDate ', firstDate.substring(3, 7), firstDate.substring(0, 2) );
-      const minDate = new Date(
-              parseInt(firstDate.substring(3, 7)),
-              parseInt(firstDate.substring(0, 2)) - 1);   // e.g., date(2019,4), with 4 = May
-      const maxDate = new Date(
-              parseInt(lastDate.substring(3, 7)),
-              parseInt(lastDate.substring(0, 2)) - 1);
-      const x = d3.scaleTime()
-//              .domain([minDate, maxDate])
-                   .range([0, width]);
-      const y = d3.scaleLinear().range([height, 0]);
-
-      // define the line
-      const valueLine = d3
-          .line()
-          .x(function(d) { return x(d[1]); })
-          .y(function(d) { return y(d[2]); });
-
-      // append the svg object to the body of the page
-      // append a 'group' element to 'svg'
-      // move the 'group' element to the top left margin
-      const svg3 = d3
-          .select("body")
-          .append("svg")
-          .attr("width", width + margin.left + margin.right)
-          .attr("height", height + margin.top + margin.bottom)
-          .append("g").attr(
-                  "transform",
-                  "translate(" + margin.left + "," + margin.top + ")");
-
-      // format the data
-      const parseTime = d3.timeParse('%b %Y');   // e.g., 'Oct 2019'
-      data.forEach(function(d) {
-        console.log('d ', d[1], d[2], parseTime(d[1]));
-        d[1] = parseTime(d[1]);
-        d[2] = +d[2];
-      });
-
-      // scale the range of the data
-      x.domain(d3.extent(data, function(d) { return d[1]; }));
-//      x.domain([0, d3.max(data, function(d) { return d[1]; })]);
-      y.domain([0, d3.max(data, function(d) { return d[2]; })]);
-
-      // add the valueLine path
-      svg3.append("path")
-          .data([data])
-          .attr("class", "line")
-          .attr("d", valueLine);
-
-      // add the x axis
-      svg3.append("g")
-          .attr("transform", "translate(0," + height + ")")
-          .call(d3.axisBottom(x));
-
-      // add the y axis
-      svg3.append("g")
-          .call(d3.axisLeft(y));
-    </script>
+    <script language='JavaScript' src='charts.js'></script>
   </body>
 </html>

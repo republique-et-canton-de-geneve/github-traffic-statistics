@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+}
+
+.cloners {
+    fill: none;
+    stroke: green;
+    stroke-width: 2px;
+}
+
+.visitors {
+    fill: none;
+    stroke: blue;
+    stroke-width: 2px;
+}
+
+.legend {
+    font-size: 16px;
+    text-decoration: underline);
+}
