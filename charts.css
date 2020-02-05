@@ -5,16 +5,18 @@ body {
 .cloners {
     fill: none;
     stroke: green;
+    color: green;
     stroke-width: 2px;
 }
 
 .visitors {
     fill: none;
     stroke: blue;
+    color: blue;
     stroke-width: 2px;
 }
 
 .legend {
     font-size: 16px;
-    text-decoration: underline);
+    text-decoration: underline;
 }

@@ -14,30 +14,6 @@ plot(gitSyncData, 'git-sync');
 plot(wlsSystemdScriptsData, 'wls-systemd-scripts');
 
 function plot(data, name) {
-      d3.select('.myClass')
-          .append('span')
-          .text('from D3.js')
-          .attr('style', 'color:red');
-      d3.select('#list')
-          .selectAll('li')
-          .data([10, 20, 30, 25, 15])
-          .text(function(d) { return 'This is pre-existing element and the value is ' + d; })
-          .enter()
-          .append('li')
-          .text(function(d) { return 'This is dynamically created element and the value is ' + d; });
-      d3.select('body')
-          // make the background-color lightblue.transition()
-          .style('background-color', 'lightblue')
-          // make the background-color gray
-          .style('background-color', 'gray');
-      d3.select('h3')
-          .transition()
-          .style('color', 'green')
-          .duration('2000')
-          .transition()
-          .style('color', 'blue')
-          .duration('2000');
-
       // set the dimensions and margins of the graph
       const margin = {
           top: 100,
