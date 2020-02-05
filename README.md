@@ -1,6 +1,8 @@
 This projet is small HTML/JavaScript page which gives graphical charts of the traffic
 ("unique cloners" and "unique visitors") on État de Genève's GitHub projects.
 
+![](./docs/screen_caption.png)
+
 # Technical facts
 
 The project consists of three parts:
