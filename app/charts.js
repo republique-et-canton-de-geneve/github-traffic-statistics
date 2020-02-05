@@ -1,19 +1,26 @@
-plot(chvoteData, 'chvote-1.0');
-plot(chvoteProtocolPocData, 'chvote-protocol-poc');
-plot(edgSitgMapData, 'edg-sitg-map');
-plot(sedexMessageHandlerData, 'sedex-Message-Handler');
-plot(logChainerData, 'log-chainer');
-plot(squeletteGithubData, 'squelette-github');
-plot(joursFeriesData, 'jours-feries');
-plot(referentielsOfsData, 'referentiels-ofs');
-plot(blockchainDocumentHorodateurData, 'blockchain-document-horodateur');
-plot(pythonRedhatVirtualizationData, 'python-redhat-virtualization');
-plot(ginaLdapClientData, 'gina-ldap-client');
-plot(xxegePurgeData, 'xxege-purge');
-plot(gitSyncData, 'git-sync');
-plot(wlsSystemdScriptsData, 'wls-systemd-scripts');
+plot(chvoteData, 'chvote-1.0', 120);
+plot(chvoteProtocolPocData, 'chvote-protocol-poc', 35);
+plot(edgSitgMapData, 'edg-sitg-map', 10);
+plot(sedexMessageHandlerData, 'sedex-Message-Handler', 10);
+plot(logChainerData, 'log-chainer', 10);
+plot(squeletteGithubData, 'squelette-github', 10);
+plot(joursFeriesData, 'jours-feries', 10);
+plot(referentielsOfsData, 'referentiels-ofs', 10);
+plot(blockchainDocumentHorodateurData, 'blockchain-document-horodateur', 10);
+plot(pythonRedhatVirtualizationData, 'python-redhat-virtualization', 10);
+plot(ginaLdapClientData, 'gina-ldap-client', 10);
+plot(xxegePurgeData, 'xxege-purge', 10);
+plot(gitSyncData, 'git-sync', 10);
+plot(wlsSystemdScriptsData, 'wls-systemd-scripts', 10);
 
-function plot(data, name) {
+/**
+ * Plots the statistics for one project.
+ * @param data project's statistics
+ * @param name projects's name, for display
+ * @param maxY maximum value on the y axis. Using similar values for different projects provides a
+ *        consistent view (the reader does not have to scale mentally)
+ */
+function plot(data, name, maxY) {
       // set the dimensions and margins of the graph
       const margin = {
           top: 100,
@@ -54,15 +61,15 @@ function plot(data, name) {
       // format the data
       const parseTime = d3.timeParse('%b %Y');   // e.g., 'Oct 2019'
       data.forEach(function(d) {
-        console.log('d :', d[0], d[1], d[2], parseTime(d[0]));
+//        console.log('d :', d[0], d[1], d[2], parseTime(d[0]));
         d[0] = parseTime(d[0]);
         d[1] = d[1];
-        d[2] = +d[2];
+        d[2] = d[2];
       });
 
       // scale the range of the data
       x.domain(d3.extent(data, function(d) { return d[0]; }));
-      y.domain([0, d3.max(data, function(d) { return Math.max(d[1], d[2]); })]);
+      y.domain([0, maxY]);
 
       // add the clonersLine path
       svg.append('path')
@@ -88,7 +95,6 @@ function plot(data, name) {
       // add a legend
       svg.append('text')
           .attr('x', width / 2)
-          .attr('y', 0 - margin.top / 5)
           .attr('text-anchor', 'middle')
           .attr('class', 'legend')
           .text(name);
