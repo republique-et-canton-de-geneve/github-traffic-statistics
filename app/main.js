@@ -34,3 +34,4 @@ plot(ginaLdapClientData, 'gina-ldap-client', 10);
 plot(xxegePurgeData, 'xxege-purge', 10);
 plot(gitSyncData, 'git-sync', 10);
 plot(wlsSystemdScriptsData, 'wls-systemd-scripts', 10);
+plot(githubTrafficStatisticsData, 'github-traffic-statistics', 10);
