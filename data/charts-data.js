@@ -44,6 +44,7 @@ const chvoteData = [
   ['May 2020', 1, 49],
   ['Jun 2020', 2, 48],
   ['Jul 2020', 6, 43],
+  ['Aug 2020', 9, 33],
 ];
 
 const chvoteProtocolPocData = [
@@ -71,6 +72,7 @@ const chvoteProtocolPocData = [
   ['May 2020', 2, 10],
   ['Jun 2020', 1, 2],
   ['Jul 2020', 4, 10],
+  ['Aug 2020', 7, 6],
 ];
 
 const edgSitgMapData = [
@@ -99,6 +101,7 @@ const edgSitgMapData = [
   ['May 2020', 0, 1],
   ['Jun 2020', 0, 1],
   ['Jul 2020', 6, 0],
+  ['Aug 2020', 0, 0],
 ];
 
 const sedexMessageHandlerData = [
@@ -127,6 +130,7 @@ const sedexMessageHandlerData = [
   ['May 2020', 1, 5],
   ['Jun 2020', 0, 2],
   ['Jul 2020', 1, 0],
+  ['Aug 2020', 0, 0],
 ];
 
 const logChainerData = [
@@ -154,6 +158,7 @@ const logChainerData = [
   ['May 2020', 2, 1],
   ['Jun 2020', 2, 0],
   ['Jul 2020', 2, 0],
+  ['Aug 2020', 1, 0],
 ];
 
 const squeletteGithubData = [
@@ -179,6 +184,7 @@ const squeletteGithubData = [
   ['May 2020', 0, 0],
   ['Jun 2020', 2, 1],
   ['Jul 2020', 1, 0],
+  ['Aug 2020', 0, 0],
 ];
 
 const joursFeriesData = [
@@ -199,6 +205,7 @@ const joursFeriesData = [
   ['Apr 2020', 2, 3],
   ['Jun 2020', 0, 2],
   ['Jul 2020', 1, 1],
+  ['Aug 2020', 0, 1],
 ];
 
 const referentielsOfsData = [
@@ -219,6 +226,7 @@ const referentielsOfsData = [
   ['May 2020', 2, 0],
   ['Jun 2020', 1, 0],
   ['Jul 2020', 1, 1],
+  ['Aug 2020', 0, 0],
 ];
 
 const blockchainDocumentHorodateurData = [
@@ -239,6 +247,7 @@ const blockchainDocumentHorodateurData = [
   ['May 2020', 0, 3],
   ['Jun 2020', 2, 3],
   ['Jul 2020', 3, 2],
+  ['Aug 2020', 0, 2],
 ];
 
 const pythonRedhatVirtualizationData = [
@@ -258,6 +267,7 @@ const pythonRedhatVirtualizationData = [
   ['May 2020', 0, 0],
   ['Jun 2020', 1, 0],
   ['Jul 2020', 2, 1],
+  ['Aug 2020', 0, 0],
 ];
 
 const ginaLdapClientData = [
@@ -276,6 +286,7 @@ const ginaLdapClientData = [
   ['May 2020', 1, 2],
   ['Jun 2020', 0, 1],
   ['Jul 2020', 1, 1],
+  ['Aug 2020', 0, 0],
 ];
 
 const xxegePurgeData = [
@@ -291,6 +302,7 @@ const xxegePurgeData = [
   ['May 2020', 0, 0],
   ['Jun 2020', 1, 1],
   ['Jul 2020', 1, 0],
+  ['Aug 2020', 0, 0],
 ];
 
 const gitSyncData = [
@@ -306,6 +318,7 @@ const gitSyncData = [
   ['May 2020', 3, 2],
   ['Jun 2020', 1, 0],
   ['Jul 2020', 1, 2],
+  ['Aug 2020', 0, 2],
 ];
 
 const wlsSystemdScriptsData = [
@@ -320,6 +333,7 @@ const wlsSystemdScriptsData = [
   ['May 2020', 0, 5],
   ['Jun 2020', 0, 0],
   ['Jul 2020', 1, 0],
+  ['Aug 2020', 0, 0],
 ];
 
 const githubTrafficStatisticsData = [
@@ -328,4 +342,5 @@ const githubTrafficStatisticsData = [
   ['May 2020', 1, 0],
   ['Jun 2020', 0, 1],
   ['Jul 2020', 1, 1],
+  ['Aug 2020', 1, 1],
 ];
