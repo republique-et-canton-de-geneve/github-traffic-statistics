@@ -48,6 +48,7 @@ const chvoteData = [
   ['Sep 2020', 4, 48],
   ['Oct 2020', 5, 57],
   ['Nov 2020', 7, 48],
+  ['Dec 2020', 5, 34],
 ];
 
 const chvoteProtocolPocData = [
@@ -79,6 +80,7 @@ const chvoteProtocolPocData = [
   ['Sep 2020', 3, 11],
   ['Oct 2020', 1, 8],
   ['Nov 2020', 2, 13],
+  ['Dec 2020', 4, 8],
 ];
 
 const edgSitgMapData = [
@@ -111,6 +113,7 @@ const edgSitgMapData = [
   ['Sep 2020', 0, 1],
   ['Oct 2020', 0, 1],
   ['Nov 2020', 0, 1],
+  ['Dec 2020', 1, 1],
 ];
 
 const sedexMessageHandlerData = [
@@ -143,6 +146,7 @@ const sedexMessageHandlerData = [
   ['Sep 2020', 2, 2],
   ['Oct 2020', 2, 3],
   ['Nov 2020', 2, 2],
+  ['Dec 2020', 1, 1],
 ];
 
 const logChainerData = [
@@ -174,6 +178,7 @@ const logChainerData = [
   ['Sep 2020', 0, 1],
   ['Oct 2020', 0, 0],
   ['Nov 2020', 0, 0],
+  ['Dec 2020', 1, 1],
 ];
 
 const squeletteGithubData = [
@@ -203,6 +208,7 @@ const squeletteGithubData = [
   ['Sep 2020', 0, 0],
   ['Oct 2020', 0, 0],
   ['Nov 2020', 0, 1],
+  ['Dec 2020', 2, 3],
 ];
 
 const joursFeriesData = [
@@ -227,6 +233,7 @@ const joursFeriesData = [
   ['Sep 2020', 1, 1],
   ['Oct 2020', 1, 1],
   ['Nov 2020', 1, 1],
+  ['Dec 2020', 1, 0],
 ];
 
 const referentielsOfsData = [
@@ -251,6 +258,7 @@ const referentielsOfsData = [
   ['Sep 2020', 0, 0],
   ['Oct 2020', 1, 0],
   ['Nov 2020', 2, 0],
+  ['Dec 2020', 2, 2],
 ];
 
 const blockchainDocumentHorodateurData = [
@@ -275,6 +283,7 @@ const blockchainDocumentHorodateurData = [
   ['Sep 2020', 0, 3],
   ['Oct 2020', 1, 0],
   ['Nov 2020', 0, 0],
+  ['Dec 2020', 0, 0],
 ];
 
 const pythonRedhatVirtualizationData = [
@@ -298,6 +307,7 @@ const pythonRedhatVirtualizationData = [
   ['Sep 2020', 0, 1],
   ['Oct 2020', 0, 0],
   ['Nov 2020', 0, 1],
+  ['Dec 2020', 1, 1],
 ];
 
 const ginaLdapClientData = [
@@ -320,6 +330,7 @@ const ginaLdapClientData = [
   ['Sep 2020', 0, 2],
   ['Oct 2020', 0, 1],
   ['Nov 2020', 1, 4],
+  ['Dec 2020', 0, 0],
 ];
 
 const xxegePurgeData = [
@@ -339,6 +350,7 @@ const xxegePurgeData = [
   ['Sep 2020', 0, 1],
   ['Oct 2020', 0, 1],
   ['Nov 2020', 0, 1],
+  ['Dec 2020', 0, 0],
 ];
 
 const gitSyncData = [
@@ -358,6 +370,7 @@ const gitSyncData = [
   ['Sep 2020', 1, 2],
   ['Oct 2020', 0, 2],
   ['Nov 2020', 2, 0],
+  ['Dec 2020', 1, 1],
 ];
 
 const wlsSystemdScriptsData = [
@@ -376,6 +389,7 @@ const wlsSystemdScriptsData = [
   ['Sep 2020', 1, 0],
   ['Oct 2020', 0, 2],
   ['Nov 2020', 0, 0],
+  ['Dec 2020', 0, 0],
 ];
 
 const githubTrafficStatisticsData = [
@@ -388,4 +402,9 @@ const githubTrafficStatisticsData = [
   ['Sep 2020', 0, 0],
   ['Oct 2020', 0, 6],
   ['Nov 2020', 0, 1],
+  ['Dec 2020', 0, 1],
+];
+
+// to be added to the list of plots (in January 2021)
+const inputFtpTransportData = [
 ];
