@@ -36,3 +36,4 @@ plot(gitSyncData, 'git-sync', 10);
 plot(wlsSystemdScriptsData, 'wls-systemd-scripts', 10);
 plot(githubTrafficStatisticsData, 'github-traffic-statistics', 10);
 plot(inputFtpTransportData, 'input-ftp-transport', 10);
+plot(followMeData, 'follow-me', 10);

@@ -52,6 +52,7 @@ const chvoteData = [
   ['Jan 2021', 2, 26],
   ['Feb 2021', 5, 46],
   ['Mar 2021', 7, 51],
+  ['Apr 2021', 8, 54],
 ];
 
 const chvoteProtocolPocData = [
@@ -87,6 +88,7 @@ const chvoteProtocolPocData = [
   ['Jan 2021', 1, 5],
   ['Feb 2021', 1, 8],
   ['Mar 2021', 2, 7],
+  ['Apr 2021', 1, 9],
 ];
 
 const edgSitgMapData = [
@@ -123,6 +125,7 @@ const edgSitgMapData = [
   ['Jan 2021', 1, 1],
   ['Feb 2021', 0, 0],
   ['Mar 2021', 0, 0],
+  ['Apr 2021', 1, 0],
 ];
 
 const sedexMessageHandlerData = [
@@ -159,6 +162,7 @@ const sedexMessageHandlerData = [
   ['Jan 2021', 2, 2],
   ['Feb 2021', 2, 2],
   ['Mar 2021', 0, 2],
+  ['Apr 2021', 1, 2],
 ];
 
 const logChainerData = [
@@ -194,6 +198,7 @@ const logChainerData = [
   ['Jan 2021', 2, 0],
   ['Feb 2021', 0, 0],
   ['Mar 2021', 1, 0],
+  ['Apr 2021', 1, 0],
 ];
 
 const squeletteGithubData = [
@@ -227,6 +232,7 @@ const squeletteGithubData = [
   ['Jan 2021', 0, 1],
   ['Feb 2021', 1, 0],
   ['Mar 2021', 0, 1],
+  ['Apr 2021', 1, 2],
 ];
 
 const joursFeriesData = [
@@ -255,6 +261,7 @@ const joursFeriesData = [
   ['Jan 2021', 0, 2],
   ['Feb 2021', 1, 1],
   ['Mar 2021', 0, 1],
+  ['Apr 2021', 0, 0],
 ];
 
 const referentielsOfsData = [
@@ -283,6 +290,7 @@ const referentielsOfsData = [
   ['Jan 2021', 0, 1],
   ['Feb 2021', 1, 0],
   ['Mar 2021', 0, 2],
+  ['Apr 2021', 1, 0],
 ];
 
 const blockchainDocumentHorodateurData = [
@@ -311,6 +319,7 @@ const blockchainDocumentHorodateurData = [
   ['Jan 2021', 0, 0],
   ['Feb 2021', 0, 0],
   ['Mar 2021', 0, 0],
+  ['Apr 2021', 2, 0],
 ];
 
 const pythonRedhatVirtualizationData = [
@@ -338,6 +347,7 @@ const pythonRedhatVirtualizationData = [
   ['Jan 2021', 0, 0],
   ['Feb 2021', 1, 1],
   ['Mar 2021', 0, 1],
+  ['Apr 2021', 1, 0],
 ];
 
 const ginaLdapClientData = [
@@ -364,6 +374,7 @@ const ginaLdapClientData = [
   ['Jan 2021', 1, 0],
   ['Feb 2021', 0, 1],
   ['Mar 2021', 0, 1],
+  ['Apr 2021', 1, 2],
 ];
 
 const xxegePurgeData = [
@@ -387,6 +398,7 @@ const xxegePurgeData = [
   ['Jan 2021', 0, 0],
   ['Feb 2021', 0, 0],
   ['Mar 2021', 0, 0],
+  ['Apr 2021', 1, 0],
 ];
 
 const gitSyncData = [
@@ -410,6 +422,7 @@ const gitSyncData = [
   ['Jan 2021', 2, 1],
   ['Feb 2021', 2, 2],
   ['Mar 2021', 1, 0],
+  ['Apr 2021', 1, 1],
 ];
 
 const wlsSystemdScriptsData = [
@@ -432,6 +445,7 @@ const wlsSystemdScriptsData = [
   ['Jan 2021', 0, 0],
   ['Feb 2021', 0, 0],
   ['Mar 2021', 0, 0],
+  ['Apr 2021', 1, 1],
 ];
 
 const githubTrafficStatisticsData = [
@@ -448,10 +462,16 @@ const githubTrafficStatisticsData = [
   ['Jan 2021', 3, 1],
   ['Feb 2021', 1, 1],
   ['Mar 2021', 1, 0],
+  ['Apr 2021', 1, 1],
 ];
 
 const inputFtpTransportData = [
   ['Jan 2021', 0, 0],
   ['Feb 2021', 0, 0],
   ['Mar 2021', 0, 0],
+  ['Apr 2021', 1, 0],
+];
+
+const followMeData = [
+  ['Apr 2021', 2, 3],
 ];
