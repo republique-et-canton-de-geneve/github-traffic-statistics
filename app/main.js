@@ -38,3 +38,4 @@ plot(githubTrafficStatisticsData, 'github-traffic-statistics', 10);
 plot(inputFtpTransportData, 'input-ftp-transport', 10);
 plot(followMeData, 'follow-me', 10);
 plot(rabbitmqStressTestData, 'rabbitmq-stress-test', 10);
+plot(rabbitmqRecommandationsDeveloppeursData, 'rabbitmq-recommandations-developpeurs', 10);
