@@ -61,6 +61,7 @@ const chvoteData = [
   ['Oct 2021', 8, 37],
   ['Nov 2021', 15, 51],
   ['Dec 2021', 6, 28],
+  ['Jan 2022', 10, 36],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/chvote-protocol-poc/graphs/traffic
@@ -105,6 +106,7 @@ const chvoteProtocolPocData = [
   ['Oct 2021', 2, 5],
   ['Nov 2021', 1, 8],
   ['Dec 2021', 0, 6],
+  ['Jan 2022', 3, 5],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/edg_sitg_map/graphs/traffic
@@ -150,6 +152,7 @@ const edgSitgMapData = [
   ['Oct 2021', 2, 1],
   ['Nov 2021', 0, 0],
   ['Dec 2021', 0, 0],
+  ['Jan 2022', 1, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/sedex-Message-Handler/graphs/traffic
@@ -195,6 +198,7 @@ const sedexMessageHandlerData = [
   ['Oct 2021', 4, 4],
   ['Nov 2021', 4, 4],
   ['Dec 2021', 1, 3],
+  ['Jan 2022', 2, 6],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/log-chainer/graphs/traffic
@@ -239,6 +243,7 @@ const logChainerData = [
   ['Oct 2021', 1, 0],
   ['Nov 2021', 0, 0],
   ['Dec 2021', 1, 1],
+  ['Jan 2022', 1, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/squelette-github/graphs/traffic
@@ -281,6 +286,7 @@ const squeletteGithubData = [
   ['Oct 2021', 0, 1],
   ['Nov 2021', 0, 1],
   ['Dec 2021', 1, 2],
+  ['Jan 2022', 1, 6],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/jours-feries/graphs/traffic
@@ -318,6 +324,7 @@ const joursFeriesData = [
   ['Oct 2021', 1, 0],
   ['Nov 2021', 1, 0],
   ['Dec 2021', 1, 0],
+  ['Jan 2022', 4, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/referentiels-ofs/graphs/traffic
@@ -354,6 +361,7 @@ const referentielsOfsData = [
   ['Oct 2021', 8, 2],
   ['Nov 2021', 2, 0],
   ['Dec 2021', 1, 1],
+  ['Jan 2022', 4, 2],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/blockchain-document-horodateur/graphs/traffic
@@ -391,6 +399,7 @@ const blockchainDocumentHorodateurData = [
   ['Oct 2021', 4, 0],
   ['Nov 2021', 0, 0],
   ['Dec 2021', 0, 3],
+  ['Jan 2022', 3, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/python-redhat-virtualization/graphs/traffic
@@ -427,6 +436,7 @@ const pythonRedhatVirtualizationData = [
   ['Oct 2021', 1, 0],
   ['Nov 2021', 1, 1],
   ['Dec 2021', 0, 0],
+  ['Jan 2022', 2, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/gina-ldap-client/graphs/traffic
@@ -462,6 +472,7 @@ const ginaLdapClientData = [
   ['Oct 2021', 5, 0],
   ['Nov 2021', 3, 1],
   ['Dec 2021', 2, 0],
+  ['Jan 2022', 1, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/xxege-purge/graphs/traffic
@@ -494,6 +505,7 @@ const xxegePurgeData = [
   ['Oct 2021', 1, 0],
   ['Nov 2021', 0, 1],
   ['Dec 2021', 0, 1],
+  ['Jan 2022', 1, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/git-sync/graphs/traffic
@@ -526,6 +538,7 @@ const gitSyncData = [
   ['Oct 2021', 0, 1],
   ['Nov 2021', 2, 0],
   ['Dec 2021', 3, 2],
+  ['Jan 2022', 1, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/wls-systemd-scripts/graphs/traffic
@@ -557,6 +570,7 @@ const wlsSystemdScriptsData = [
   ['Oct 2021', 1, 1],
   ['Nov 2021', 0, 5],
   ['Dec 2021', 0, 0],
+  ['Jan 2022', 0, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/github-traffic-statistics/graphs/traffic
@@ -582,6 +596,7 @@ const githubTrafficStatisticsData = [
   ['Oct 2021', 2, 0],
   ['Nov 2021', 0, 1],
   ['Dec 2021', 1, 0],
+  ['Jan 2022', 2, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/input-ftp-transport/graphs/traffic
@@ -597,6 +612,7 @@ const inputFtpTransportData = [
   ['Oct 2021', 0, 0],
   ['Nov 2021', 0, 0],
   ['Dec 2021', 0, 1],
+  ['Jan 2022', 2, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/follow-me/graphs/traffic
@@ -609,15 +625,18 @@ const followMeData = [
   ['Oct 2021', 7, 1],
   ['Nov 2021', 1, 1],
   ['Dec 2021', 1, 1],
+  ['Jan 2022', 2, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/rabbitmq-stress-test/graphs/traffic
 const rabbitmqStressTestData = [
   ['Nov 2021', 2, 0],
   ['Dec 2021', 0, 0],
+  ['Jan 2022', 1, 2],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/rabbitmq-recommandations-developpeurs/graphs/traffic
 const rabbitmqRecommandationsDeveloppeursData = [
   ['Dec 2021', 0, 1],
+  ['Jan 2022', 1, 5],
 ];
