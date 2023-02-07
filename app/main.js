@@ -20,6 +20,7 @@
 /**
  * Provides the GitHub projects to be plotted.
  */
+plot(strategieOpenSourceData, 'strategie-open-source', 100);
 plot(chvoteData, 'chvote-1.0', 120);
 plot(chvoteProtocolPocData, 'chvote-protocol-poc', 35);
 plot(edgSitgMapData, 'edg-sitg-map', 10);
