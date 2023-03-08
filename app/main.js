@@ -22,7 +22,7 @@
  */
 plot(strategieOpenSourceData, 'strategie-open-source', 100);
 plot(chvoteData, 'chvote-1.0', 120);
-plot(chvoteProtocolPocData, 'chvote-protocol-poc', 35);
+plot(chvoteProtocolPocData, 'chvote-protocol-poc', 30);
 plot(edgSitgMapData, 'edg-sitg-map', 10);
 plot(sedexMessageHandlerData, 'sedex-Message-Handler', 10);
 plot(logChainerData, 'log-chainer', 10);
@@ -41,3 +41,5 @@ plot(followMeData, 'follow-me', 10);
 plot(rabbitmqStressTestData, 'rabbitmq-stress-test', 10);
 plot(rabbitmqRecommandationsDeveloppeursData, 'rabbitmq-recommandations-developpeurs', 10);
 plot(qeliFrontofficeData, 'qeli-frontend', 10);
+plot(nomsGeographiquesData, 'noms-geographiques', 10);
+plot(enuMediationData, 'enu-mediation', 10);
