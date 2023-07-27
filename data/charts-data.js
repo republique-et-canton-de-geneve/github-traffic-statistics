@@ -1000,6 +1000,10 @@ const nomsGeographiquesData = [
   ['Jun 2023', 1, 3],
 ];
 
+// https://github.com/republique-et-canton-de-geneve/enu/graphs/traffic
+const enuData = [
+];
+
 // https://github.com/Espace-numerique-de-l-usager/enu-mediation/graphs/traffic (attention : autre utilisateur !)
 const enuMediationData = [
   ['Feb 2023', 3, 1],
@@ -1007,4 +1011,8 @@ const enuMediationData = [
   ['Apr 2023', 1, 0],
   ['May 2023', 1, 0],
   ['Jun 2023', 3, 3],
+];
+
+// https://github.com/republique-et-canton-de-geneve/enu-console-admin/graphs/traffic
+const enuConsoleAdminData = [
 ];

@@ -42,4 +42,6 @@ plot(rabbitmqStressTestData, 'rabbitmq-stress-test', 10);
 plot(rabbitmqRecommandationsDeveloppeursData, 'rabbitmq-recommandations-developpeurs', 10);
 plot(qeliFrontofficeData, 'qeli-frontend', 10);
 plot(nomsGeographiquesData, 'noms-geographiques', 10);
+plot(enuData, 'enu', 10);
 plot(enuMediationData, 'enu-mediation', 10);
+plot(enuConsoleAdminData, 'enu-console-admin', 10);
