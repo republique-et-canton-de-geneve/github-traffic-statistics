@@ -3,6 +3,9 @@ This repository is small HTML/JavaScript page which gives graphical charts of th
 
 ![](./docs/screen_caption.png)
 
+Reference :
+[GitHub traffic](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository).
+
 # Technical facts
 
 The application consists of three parts:
