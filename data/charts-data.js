@@ -89,6 +89,7 @@ const chvoteData = [
   ['Feb 2024', 16, 42]
 ];
 
+
 // https://github.com/republique-et-canton-de-geneve/chvote-protocol-poc/graphs/traffic
 const chvoteProtocolPocData = [
   ['May 2018', 0, 23],
