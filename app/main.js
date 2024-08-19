@@ -40,6 +40,7 @@ plot(inputFtpTransportData, 'input-ftp-transport', 10);
 plot(followMeData, 'follow-me', 10);
 plot(rabbitmqStressTestData, 'rabbitmq-stress-test', 10);
 plot(rabbitmqRecommandationsDeveloppeursData, 'rabbitmq-recommandations-developpeurs', 10);
+plot(rabbitmqConsumerAckData, 'rabbitmq-consumer-ack', 10);
 plot(qeliFrontofficeData, 'qeli-frontend', 10);
 plot(nomsGeographiquesData, 'noms-geographiques', 10);
 plot(enuData, 'enu', 10);
