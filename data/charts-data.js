@@ -1265,7 +1265,7 @@ const qeliFrontofficeData = [
   ['Jun 2024', 4, 1],
   ['Jul 2024', 4, 1],
   ['Aug 2024', 3, 1],
-  ['Aug 2024', 4, 1],
+  ['Sep 2024', 4, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/strategie-open-source/graphs/traffic
