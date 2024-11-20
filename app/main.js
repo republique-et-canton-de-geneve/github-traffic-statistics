@@ -46,3 +46,4 @@ plot(nomsGeographiquesData, 'noms-geographiques', 10);
 plot(enuData, 'enu', 10);
 plot(enuConsoleAdminData, 'enu-console-admin', 10);
 plot(nexusRmManagementData, 'nexus-rm-management', 10);
+plot(bimEcsData, 'bim-ecs', 10);

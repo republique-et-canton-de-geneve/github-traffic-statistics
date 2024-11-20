@@ -1391,3 +1391,7 @@ const nexusRmManagementData = [
   ['Sep 2024', 0, 3],
   ['Oct 2024', 5, 1],
 ];
+
+// https://github.com/republique-et-canton-de-geneve/nexus-rm-management/graphs/traffic
+const bimEcsData = [
+];
