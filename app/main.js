@@ -47,3 +47,4 @@ plot(enuData, 'enu', 10);
 plot(enuConsoleAdminData, 'enu-console-admin', 10);
 plot(nexusRmManagementData, 'nexus-rm-management', 10);
 plot(bimEcsData, 'bim-ecs', 10);
+plot(afcRapportsBddData, 'afc-rapports-bdd', 10);

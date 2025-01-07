@@ -1417,7 +1417,10 @@ const nexusRmManagementData = [
   ['Nov 2024', 5, 3],
 ];
 
-// https://github.com/republique-et-canton-de-geneve/nexus-rm-management/graphs/traffic
+// https://github.com/republique-et-canton-de-geneve/bim-ecs/graphs/traffic
 const bimEcsData = [
-  ['Nov 2024', 5, 3],
+];
+
+// https://github.com/republique-et-canton-de-geneve/afc-rapports-bdd/graphs/traffic
+const afcRapportsBddData = [
 ];
