@@ -1478,3 +1478,7 @@ const afcRapportsBddData = [
   ['Dec 2024', 8, 5],
   ['Jan 2025', 6, 1],
 ];
+
+// https://github.com/republique-et-canton-de-geneve/terraform-provider-aria/graphs/traffic
+const terraformProviderAriaData = [
+];
