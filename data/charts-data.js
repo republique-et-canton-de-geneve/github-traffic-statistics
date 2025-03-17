@@ -1510,3 +1510,7 @@ const afcRapportsBddData = [
 const terraformProviderAriaData = [
   ['Feb 2025', 4, 3],
 ];
+
+// https://github.com/republique-et-canton-de-geneve/ve-toolkit-cartes-de-vote/graphs/traffic
+const veToolkitCartesDeVoteData = [
+] ;

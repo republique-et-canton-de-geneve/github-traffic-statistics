@@ -49,3 +49,4 @@ plot(nexusRmManagementData, 'nexus-rm-management', 10);
 plot(bimEcsData, 'bim-ecs', 10);
 plot(afcRapportsBddData, 'afc-rapports-bdd', 10);
 plot(terraformProviderAriaData, 'terraform-provider-aria', 10);
+plot(veToolkitCartesDeVoteData, 've-toolkit-cartes-de-vote', 10);
