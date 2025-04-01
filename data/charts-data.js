@@ -1468,6 +1468,7 @@ const enuData = [
   ['Mar 2025', 12, 1],
 ];
 
+// Statistique interrompue car le projet est désormais privé
 // https://github.com/republique-et-canton-de-geneve/enu-console-admin/graphs/traffic
 const enuConsoleAdminData = [
   ['Jul 2023', 1, 1],
