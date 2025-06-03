@@ -1572,3 +1572,11 @@ const veToolkitCartesDeVoteData = [
   ['Mar 2025', 22, 3],
   ['Apr 2025', 3, 6],
 ] ;
+
+//https://github.com/republique-et-canton-de-geneve/catalogue-solutions-open-source/graphs/traffic
+const catalogueSolutionsOpenSourceData = [
+];
+
+// https://github.com/republique-et-canton-de-geneve/sitg-tutorials/graphs/traffic
+const sitgTutorialsData = [
+];
