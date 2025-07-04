@@ -102,6 +102,7 @@ const chvoteData = [
   ['Mar 2025', 11, 39],
   ['Apr 2025', 16, 38],
   ['May 2025', 12, 37],
+  ['Jun 2025', 14, 36],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/chvote-protocol-poc/graphs/traffic
@@ -187,6 +188,7 @@ const chvoteProtocolPocData = [
   ['Mar 2025', 1, 4],
   ['Apr 2025', 4, 6],
   ['May 2025', 2, 3],
+  ['Jun 2025', 10, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/edg_sitg_map/graphs/traffic
@@ -273,6 +275,7 @@ const edgSitgMapData = [
   ['Mar 2025', 1, 0],
   ['Apr 2025', 2, 0],
   ['May 2025', 2, 0],
+  ['Jun 2025', 5, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/sedex-Message-Handler/graphs/traffic
@@ -359,6 +362,7 @@ const sedexMessageHandlerData = [
   ['Mar 2025', 2, 0],
   ['Apr 2025', 3, 4],
   ['May 2025', 6, 3],
+  ['Jun 2025', 7, 5],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/log-chainer/graphs/traffic
@@ -444,6 +448,7 @@ const logChainerData = [
   ['Mar 2025', 11, 1],
   ['Apr 2025', 3, 2],
   ['May 2025', 2, 0],
+  ['Jun 2025', 5, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/squelette-github/graphs/traffic
@@ -527,6 +532,7 @@ const squeletteGithubData = [
   ['Mar 2025', 0, 0],
   ['Apr 2025', 3, 0],
   ['May 2025', 1, 2],
+  ['Jun 2025', 4, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/jours-feries/graphs/traffic
@@ -604,6 +610,7 @@ const joursFeriesData = [
   ['Mar 2025', 0, 2],
   ['Apr 2025', 2, 0],
   ['May 2025', 1, 1],
+  ['Jun 2025', 4, 2],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/referentiels-ofs/graphs/traffic
@@ -681,6 +688,7 @@ const referentielsOfsData = [
   ['Mar 2025', 0, 0],
   ['Apr 2025', 4, 1],
   ['May 2025', 11, 0],
+  ['Jun 2025', 10, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/blockchain-document-horodateur/graphs/traffic
@@ -759,6 +767,7 @@ const blockchainDocumentHorodateurData = [
   ['Mar 2025', 1, 1],
   ['Apr 2025', 5, 0],
   ['May 2025', 1, 2],
+  ['Jun 2025', 5, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/python-redhat-virtualization/graphs/traffic
@@ -836,6 +845,7 @@ const pythonRedhatVirtualizationData = [
   ['Mar 2025', 1, 0],
   ['Apr 2025', 2, 0],
   ['May 2025', 0, 0],
+  ['Jun 2025', 3, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/gina-ldap-client/graphs/traffic
@@ -964,6 +974,7 @@ const xxegePurgeData = [
   ['Mar 2025', 0, 1],
   ['Apr 2025', 2, 2],
   ['May 2025', 1, 0],
+  ['Jun 2025', 6, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/git-sync/graphs/traffic
@@ -1037,6 +1048,7 @@ const gitSyncData = [
   ['Mar 2025', 2, 0],
   ['Apr 2025', 5, 1],
   ['May 2025', 8, 2],
+  ['Jun 2025', 29, 2],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/wls-systemd-scripts/graphs/traffic
@@ -1109,6 +1121,7 @@ const wlsSystemdScriptsData = [
   ['Mar 2025', 0, 2],
   ['Apr 2025', 3, 10],
   ['May 2025', 1, 3],
+  ['Jun 2025', 6, 8],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/github-traffic-statistics/graphs/traffic
@@ -1175,6 +1188,7 @@ const githubTrafficStatisticsData = [
   ['Mar 2025', 16, 2],
   ['Apr 2025', 3, 0],
   ['May 2025', 6, 1],
+  ['Jun 2025', 5, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/input-ftp-transport/graphs/traffic
@@ -1231,6 +1245,7 @@ const inputFtpTransportData = [
   ['Mar 2025', 13, 0],
   ['Apr 2025', 3, 0],
   ['May 2025', 1, 0],
+  ['Jun 2025', 4, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/follow-me/graphs/traffic
@@ -1284,6 +1299,7 @@ const followMeData = [
   ['Mar 2025', 1, 0],
   ['Apr 2025', 3, 1],
   ['May 2025', 2, 0],
+  ['Jun 2025', 4, 3],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/rabbitmq-stress-test/graphs/traffic
@@ -1329,6 +1345,7 @@ const rabbitmqStressTestData = [
   ['Mar 2025', 1, 0],
   ['Apr 2025', 1, 0],
   ['May 2025', 0, 0],
+  ['Jun 2025', 5, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/rabbitmq-recommandations-developpeurs/graphs/traffic
@@ -1375,6 +1392,7 @@ const rabbitmqRecommandationsDeveloppeursData = [
   ['Mar 2025', 11, 1],
   ['Apr 2025', 1, 0],
   ['May 2025', 1, 2],
+  ['Jun 2025', 4, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/qeli-frontoffice/graphs/traffic
@@ -1418,6 +1436,7 @@ const qeliFrontofficeData = [
   ['Mar 2025', 12, 0],
   ['Apr 2025', 2, 0],
   ['May 2025', 2, 1],
+  ['Jun 2025', 5, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/strategie-open-source/graphs/traffic
@@ -1451,6 +1470,7 @@ const strategieOpenSourceData = [
   ['Mar 2025', 1, 8],
   ['Apr 2025', 9, 6],
   ['May 2025', 3, 10],
+  ['Jun 2025', 4, 6],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/noms-geographiques/graphs/traffic
@@ -1483,6 +1503,7 @@ const nomsGeographiquesData = [
   ['Mar 2025', 0, 0],
   ['Apr 2025', 3, 1],
   ['May 2025', 4, 1],
+  ['Jun 2025', 3, 2],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/enu/graphs/traffic
@@ -1510,6 +1531,7 @@ const enuData = [
   ['Mar 2025', 12, 1],
   ['Apr 2025', 1, 0],
   ['May 2025', 2, 1],
+  ['Jun 2025', 4, 0],
 ];
 
 // Statistique interrompue car le projet est désormais privé
@@ -1551,6 +1573,7 @@ const rabbitmqConsumerAckData = [
   ['Mar 2025', 1, 0],
   ['Apr 2025', 2, 0],
   ['May 2025', 2, 0],
+  ['Jun 2025', 3, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/nexus-rm-management/graphs/traffic
@@ -1564,6 +1587,7 @@ const nexusRmManagementData = [
   ['Mar 2025', 4, 0],
   ['Apr 2025', 3, 2],
   ['May 2025', 8, 0],
+  ['Jun 2025', 6, 3],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/bim-ecs/graphs/traffic
@@ -1574,6 +1598,7 @@ const bimEcsData = [
   ['Mar 2025', 4, 1],
   ['Apr 2025', 3, 2],
   ['May 2025', 4, 3],
+  ['Jun 2025', 5, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/afc-rapports-bdd/graphs/traffic
@@ -1584,6 +1609,7 @@ const afcRapportsBddData = [
   ['Mar 2025', 8, 1],
   ['Apr 2025', 2, 0],
   ['May 2025', 2, 5],
+  ['Jun 2025', 4, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/terraform-provider-aria/graphs/traffic
@@ -1592,6 +1618,7 @@ const terraformProviderAriaData = [
   ['Mar 2025', 2, 0],
   ['Apr 2025', 2, 0],
   ['May 2025', 4, 1],
+  ['Jun 2025', 11, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/ve-toolkit-cartes-de-vote/graphs/traffic
@@ -1599,14 +1626,17 @@ const veToolkitCartesDeVoteData = [
   ['Mar 2025', 22, 3],
   ['Apr 2025', 3, 6],
   ['May 2025', 2, 3],
+  ['Jun 2025', 8, 2],
 ] ;
 
 //https://github.com/republique-et-canton-de-geneve/catalogue-solutions-open-source/graphs/traffic
 const catalogueSolutionsOpenSourceData = [
   ['May 2025', 9, 6],
+  ['Jun 2025', 68, 41],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/sitg-tutorials/graphs/traffic
 const sitgTutorialsData = [
   ['May 2025', 8, 7],
+  ['Jun 2025', 10, 2],
 ];
