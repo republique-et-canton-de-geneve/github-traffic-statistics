@@ -1670,3 +1670,7 @@ const sitgTutorialsData = [
   ['Jun 2025', 10, 2],
   ['Jul 2025', 4, 3],
 ];
+
+// https://github.com/republique-et-canton-de-geneve/php-symfony-base/graphs/traffic
+const phpSymfonyBaseData = [
+];
