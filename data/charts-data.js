@@ -1705,3 +1705,7 @@ const sitgTutorialsData = [
 const phpSymfonyBaseData = [
   ['Aug 2025', 19, 4],
 ];
+
+// https://github.com/republique-et-canton-de-geneve/ge-theme/graphs/traffic
+const geThemeData = [
+];
