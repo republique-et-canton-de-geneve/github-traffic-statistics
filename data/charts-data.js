@@ -721,7 +721,6 @@ const referentielsOfsData = [
   ['Aug 2025', 15, 0],
   ['Sep 2025', 12, 2],
   ['Oct 2025', 14, 5],
-  ['Oct 2025', 14, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/blockchain-document-horodateur/graphs/traffic
