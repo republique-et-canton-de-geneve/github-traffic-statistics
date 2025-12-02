@@ -1775,3 +1775,7 @@ const geThemeData = [
   ['Sep 2025', 14, 14],
   ['Oct 2025', 27, 4],
 ];
+
+//https://github.com/republique-et-canton-de-geneve/drupal-parent-theme/graphs/traffic
+const drupalParentThemeData = [
+];

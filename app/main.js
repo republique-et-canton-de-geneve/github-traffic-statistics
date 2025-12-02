@@ -54,3 +54,4 @@ plot(catalogueSolutionsOpenSourceData, 'catalogue-solutions-open-source', 60);
 plot(sitgTutorialsData, 'sitg-tutorials', 10);
 plot(phpSymfonyBaseData, 'php-symfony-base', 30);
 plot(geThemeData, 'ge-theme', 10);
+plot(drupalParentThemeData, 'drupal-parent-theme', 30);
