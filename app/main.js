@@ -55,3 +55,6 @@ plot(sitgTutorialsData, 'sitg-tutorials', 10);
 plot(phpSymfonyBaseData, 'php-symfony-base', 30);
 plot(geThemeData, 'ge-theme', 10);
 plot(drupalParentThemeData, 'drupal-parent-theme', 30);
+plot(nexusIqDashboardExtractorData, 'nexus-iq-dashboard-extractor', 30);
+plot(phpSymphonyResponseHeadersBundleData, 'php-symfony-response-headers-bundle', 30);
+plot(sitgQgisPluginData, 'sitg-qgis-plugin', 30);

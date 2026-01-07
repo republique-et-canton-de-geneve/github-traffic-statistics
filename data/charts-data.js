@@ -1846,16 +1846,16 @@ const drupalParentThemeData = [
 ];
 
 // https://github.com/republique-et-canton-de-geneve/nexus-iq-dashboard-extractor/graphs/traffic
-const nexusIqDashboardExtractor = [
+const nexusIqDashboardExtractorData = [
   ['Dec 2025', 34, 0],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/php-symfony-response-headers-bundle
-const phpSymphonyResponseHeadersBundle = [
+const phpSymphonyResponseHeadersBundleData = [
   ['Dec 2025', 8, 1],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/sitg-qgis-plugin
-const sitgQgisPlugin = [
+const sitgQgisPluginData = [
   ['Dec 2025', 8, 2],
 ];
