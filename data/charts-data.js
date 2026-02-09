@@ -110,7 +110,6 @@ const chvoteData = [
   ['Nov 2025', 16, 39],
   ['Dec 2025', 22, 42],
   ['Jan 2026',34 , 40],
-
 ];
 
 // https://github.com/republique-et-canton-de-geneve/chvote-protocol-poc/graphs/traffic
@@ -1885,13 +1884,13 @@ const nexusIqDashboardExtractorData = [
   ['Jan 2026', 34, 3],
 ];
 
-https://github.com/republique-et-canton-de-geneve/php-symfony-response-headers-bundle/graphs/traffic
+//https://github.com/republique-et-canton-de-geneve/php-symfony-response-headers-bundle/graphs/traffic
 const phpSymphonyResponseHeadersBundleData = [
   ['Dec 2025', 8, 1],
   ['Jan 2026', 8, 1],
 ];
 
-https://github.com/republique-et-canton-de-geneve/sitg-qgis-plugin/graphs/traffic
+//https://github.com/republique-et-canton-de-geneve/sitg-qgis-plugin/graphs/traffic
 const sitgQgisPluginData = [
   ['Dec 2025', 8, 2],
   ['Jan 2026', 11, 4],
