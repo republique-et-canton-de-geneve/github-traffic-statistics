@@ -31,7 +31,6 @@ plot(joursFeriesData, 'jours-feries', 30);
 plot(referentielsOfsData, 'referentiels-ofs', 30);
 plot(blockchainDocumentHorodateurData, 'blockchain-document-horodateur', 30);
 plot(pythonRedhatVirtualizationData, 'python-redhat-virtualization', 30);
-plot(ginaLdapClientData, 'gina-ldap-client', 30);
 plot(xxegePurgeData, 'xxege-purge', 30);
 plot(gitSyncData, 'git-sync', 30);
 plot(wlsSystemdScriptsData, 'wls-systemd-scripts', 30);
