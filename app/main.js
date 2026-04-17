@@ -57,3 +57,4 @@ plot(drupalParentThemeData, 'drupal-parent-theme', 30);
 plot(nexusIqDashboardExtractorData, 'nexus-iq-dashboard-extractor', 30);
 plot(phpSymphonyResponseHeadersBundleData, 'php-symfony-response-headers-bundle', 30);
 plot(sitgQgisPluginData, 'sitg-qgis-plugin', 30);
+plot(afcSemaFrontendData, 'afc-sema-frontend', 30);
