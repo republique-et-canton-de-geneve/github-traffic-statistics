@@ -1902,6 +1902,7 @@ const phpSymfonyBaseData = [
   ['Apr 2026', 21, 2],
 ];
 
+// private
 // https://github.com/republique-et-canton-de-geneve/ge-theme/graphs/traffic
 const geThemeData = [
   ['Sep 2025', 14, 14],
@@ -1956,7 +1957,7 @@ const afcSemaFrontendData = [
   ['Apr 2026', 31, 5],
 ];
 
-// https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Frepublique-et-canton-de-geneve%2Fafc-sema-frontend%2Fgraphs%2Ftraffic
+// https://github.com/republique-et-canton-de-geneve/terraform-provider-openapi/graphs/traffic
 const terraformProviderOpenapi = [
   ['Apr 2026', 166, 4],
 ];
