@@ -2000,6 +2000,6 @@ const terraformProviderOpenapiData = [
 ];
 
 // https://github.com/republique-et-canton-de-geneve/pre-plainte/graphs/traffic
-const prePlainteData = {
+const prePlainteData = [
   ['May 2026', 278, 11]
-}
+];
