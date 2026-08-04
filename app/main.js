@@ -43,7 +43,6 @@ plot(rabbitmqConsumerAckData, 'rabbitmq-consumer-ack', 30);
 plot(qeliFrontofficeData, 'qeli-frontend', 30);
 plot(nomsGeographiquesData, 'noms-geographiques', 30);
 plot(enuData, 'enu', 30);
-plot(enuConsoleAdminData, 'enu-console-admin', 30);
 plot(nexusRmManagementData, 'nexus-rm-management', 30);
 plot(bimEcsData, 'bim-ecs', 30);
 plot(afcRapportsBddData, 'afc-rapports-bdd', 30);

@@ -1766,32 +1766,6 @@ const enuData = [
   ['Jul 2026', 8, 2]
 ];
 
-// Statistique interrompue car le projet est désormais privé
-// https://github.com/republique-et-canton-de-geneve/enu-console-admin/graphs/traffic
-const enuConsoleAdminData = [
-  ['Jul 2023', 1, 1],
-  ['Aug 2023', 3, 2],
-  ['Sep 2023', 2, 3],
-  ['Oct 2023', 2, 1],
-  ['Nov 2023', 3, 1],
-  ['Dec 2023', 5, 0],
-  ['Jan 2024', 3, 1],
-  ['Feb 2024', 1, 0],
-  ['Mar 2024', 1, 1],
-  ['Apr 2024', 1, 0],
-  ['May 2024', 3, 0],
-  ['Jun 2024', 0, 0],
-  ['Jul 2024', 1, 1],
-  ['Aug 2024', 0, 0],
-  ['Sep 2024', 1, 1],
-  ['Oct 2024', 2, 0],
-  ['Nov 2024', 0, 1],
-  ['Dec 2024', 0, 0],
-  ['Jan 2025', 2, 0],
-  ['Feb 2025', 0, 1],
-  // privé
-];
-
 // https://github.com/republique-et-canton-de-geneve/rabbitmq-consumer-ack/graphs/traffic
 const rabbitmqConsumerAckData = [
   ['Jul 2024', 2, 1],
@@ -1896,7 +1870,6 @@ const afcRapportsBddData = [
   ['Jul 2026', 13, 1]
 ];
 
-// Statistique interrompue car le projet est désormais privé
 // https://github.com/republique-et-canton-de-geneve/terraform-provider-aria/graphs/traffic
 const terraformProviderAriaData = [
   ['Feb 2025', 4, 3],
@@ -1912,7 +1885,10 @@ const terraformProviderAriaData = [
   ['Dec 2025', 9, 0],
   ['Jan 2026', 3, 0],
   ['Feb 2026', 3, 0],
-//privé
+  //['Mar 2026' privé],
+  //['Apr 2026' privé],
+  //['May 2026' privé],
+  //['Jun 2026' privé],
 ];
 
 // https://github.com/republique-et-canton-de-geneve/ve-toolkit-cartes-de-vote/graphs/traffic
@@ -1992,7 +1968,7 @@ const phpSymfonyBaseData = [
   ['Jul 2026', 10, 4]
 ];
 
-// private
+// ce projet est temporairement privé.
 // https://github.com/republique-et-canton-de-geneve/ge-theme/graphs/traffic
 const geThemeData = [
   ['Sep 2025', 14, 14],
