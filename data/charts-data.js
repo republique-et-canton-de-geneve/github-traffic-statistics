@@ -1889,6 +1889,7 @@ const terraformProviderAriaData = [
   //['Apr 2026' privé],
   //['May 2026' privé],
   //['Jun 2026' privé],
+  ['Jul 2026', 4, 0]
 ];
 
 // https://github.com/republique-et-canton-de-geneve/ve-toolkit-cartes-de-vote/graphs/traffic
@@ -2052,3 +2053,8 @@ const prePlainteData = [
   ['Jun 2026', 260, 13],
   ['Jul 2026', 74, 9]
 ];
+
+//https://github.com/republique-et-canton-de-geneve/gdal-sde-provider/graphs/traffic
+const gdalSdeProviderData = [
+  ['Jul 2026', 6, 3]
+]

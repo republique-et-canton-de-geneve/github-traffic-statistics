@@ -59,3 +59,4 @@ plot(sitgQgisPluginData, 'sitg-qgis-plugin', 30);
 plot(afcSemaFrontendData, 'afc-sema-frontend', 30);
 plot(terraformProviderOpenapiData, 'terraform-provider-openapi', 30);
 plot(prePlainteData, 'pre-plainte', 30);
+plot(prePlainteData, 'gdal-sde-provider', 30);
