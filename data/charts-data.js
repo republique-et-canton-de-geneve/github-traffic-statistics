@@ -2058,3 +2058,8 @@ const prePlainteData = [
 const gdalSdeProviderData = [
   ['Jul 2026', 6, 3]
 ]
+
+// https://github.com/republique-et-canton-de-geneve/filjava-app-template-backend/graphs/traffic
+// NOUVEAU ! A AJOUTER
+//const filjava-app-template-backend = [
+//]
